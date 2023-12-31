@@ -9,18 +9,40 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/042f17eb03.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Favorite Monument Challenge</title>
     <style>
       h1 {
         color: darkblue;
         text-align: center;
+        font-family: "Manrope", sans-serif;
+        background: whitesmoke;
+        box-shadow: 4px 4px 4px grey;
       }
 
       h3 {
         text-align: center;
         margin-bottom: 50px;
         margin-top: 50px;
+        font-family: "Manrope", sans-serif;
       }
+      img {
+        border-radius: 5px;
+        margin-top: 5px;
+        border-style: double;
+        border-color: darkblue;
+        border-width: 10px;
+      }
+
       .card-img-top {
         display: flex;
       }
@@ -67,7 +89,7 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">.Opera House Facts.</h5>
+              <h5 class="card-title">*Opera House Facts*</h5>
 
               <div class="container text-center">
                 <div class="row">
@@ -89,8 +111,17 @@
                 href="https://www.sydneyoperahouse.com/building/interesting-facts-about-sydney-opera-house"
                 target="_blank"
                 class="btn btn-primary m-3"
-                >.More Interesting Facts.</a
-              >
+                ><i
+                  class="fa-solid fa-arrow-right fa-beat fa-lg"
+                  style="color: #edeff4"
+                ></i>
+                Click Here For More Interesting Facts About The Sydney Opera
+                House
+                <i
+                  class="fa-solid fa-arrow-left fa-beat fa-lg"
+                  style="color: #edeff4"
+                ></i
+              ></a>
             </div>
           </div>
 
